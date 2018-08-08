@@ -167,3 +167,11 @@ process.uptime = function() {};
  * @nosideeffects
  */
 process.hrtime = function() {};
+
+/**
+ * @nosideeffects
+ * @param {!string} eventName
+ * @param {!function()} callback
+ */
+process.on = function(eventName, callback) {};
+
